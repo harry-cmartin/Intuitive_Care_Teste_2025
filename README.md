@@ -38,8 +38,10 @@ pip install pdfplumber
 ```bash
  python Data_transformation.py
 
-
 ```
+Cerca de 10 segs para extração ser concluida 
+
+Obs: Extra adicionado - Script sql para importação para uma BANCO DE DADOS dos dados trnsformados para csv. (Opcional)  
 
 ## Teste 3 - BANCO DE DADOS 
 

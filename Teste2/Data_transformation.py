@@ -34,7 +34,7 @@ COLUMN_NAMES = {
     "CAPÍTULO": "capitulo"
 }
 
-def extract_table_from_pdf(pdf_file):
+def extract_table_from_pdf(pdf_file): # CERCA DE 15 SEG PARA EXTRAIR TUDO
     data = []
     header = None
     
@@ -59,12 +59,12 @@ def save_to_csv(data, csv_file):
     with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         
-        # Verificar se há dados antes de escrever
+        
         if data:
             # Escrever cabeçalho assumindo que a primeira linha contém os títulos
             writer.writerow(data[0])
             
-            # Escrever as demais linhas
+            
             for row in data[1:]:
                 writer.writerow(row)
     print(f"Arquivo CSV salvo: {csv_file}")
