@@ -28,7 +28,7 @@ logging.basicConfig(
 # URL da página
 URL = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos"
 DOWNLOAD_DIR = "Downloads"
-ZIP_FILENAME = "anexos_ans.zip"
+ZIP_FILENAME = "anexos_baixados.zip"
 
 # Criar pasta de downloads se não existir
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
