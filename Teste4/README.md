@@ -57,7 +57,7 @@ O projeto segue a arquitetura MVC (Model-View-Controller):
 ## Endpoints da API
 
 ### GET /api/operadoras/
-Lista até 10 operadoras. Sem parâmetros, retorna as 10 primeiras operadoras do banco de dados.
+Lista todas as operadoras existentes.
 
 ### GET /api/operadoras/?search=texto
 Busca até operadoras que contenham o texto informado em qualquer um dos campos (registro_ans, razao_social, nome_fantasia, cidade, cnpj, representante, UF,modalidade, cep e regiao de comercialização).
