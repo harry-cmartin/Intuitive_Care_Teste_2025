@@ -9,27 +9,6 @@ __pycache__/
 !*/migrations/__init__.py
 db.sqlite3
 
-# Virtual environments
-venv/
-env/
-.env/
-.venv/
-
-# IDE files
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Local settings
-local_settings.py
-
-# Media and static files in development
-media/
-static/collected/
 
 # Compiled JavaScript
 *.min.js
@@ -37,15 +16,7 @@ static/collected/
 # Compiled CSS
 *.min.css
 
-# Coverage reports
-.coverage
-htmlcov/
 
-# Test cache
-.pytest_cache/
-.tox/
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+
+
