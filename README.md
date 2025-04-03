@@ -43,9 +43,9 @@ pip install pdfplumber
 
 ## Teste 3 - BANCO DE DADOS 
 
-1. Leia as instruções presentes na pasta Teste3 em [readme]()
+1. Leia as instruções presentes na pasta Teste3 em [readme](https://github.com/harry-cmartin/Intuitive_Care_Teste_2025/blob/main/Teste3/README.md)
 
 
 ## Teste 4 - API
 
-1. Leia as instruções presentes na pasta Teste4 em [readme]()
+1. Leia as instruções presentes na pasta Teste4 em [readme](https://github.com/harry-cmartin/Intuitive_Care_Teste_2025/blob/main/Teste4/README.md)
