@@ -6,6 +6,12 @@ from urllib.parse import urljoin
 import logging
 import hashlib
 
+
+#Define o diretório de trabalho como o diretório onde o script está localizado
+script_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(script_dir)
+
+
 # Configuração do logging
 logging.basicConfig(
     level=logging.INFO,
@@ -15,6 +21,9 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
+
+
+
 
 # URL da página
 URL = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos"
