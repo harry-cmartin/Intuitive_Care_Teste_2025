@@ -7,7 +7,7 @@ class Command(BaseCommand):
     help = 'Impport de operadoras'
 
     def add_arguments(self, parser):
-        parser.add_argument('csv_file', type=str, help='Caminho')
+        parser.add_argument('csv_file', type=str, help='Caminho para o csv')
 
     def handle(self, *args, **options):
         csv_file = options['csv_file']

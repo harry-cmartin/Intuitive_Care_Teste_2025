@@ -29,9 +29,11 @@ O projeto segue a arquitetura MVC (Model-View-Controller):
 
 ## Configuração e Execução
 
-1. Instale as dependencias:
+1. Instale as dependecias:
+
    ```
-   pip install django djangorestframework django-cors-headers pandas django-filter
+   python -m pip install django djangorestframework django-cors-headers pandas django-filter
+
    ```
 
 2. Execute as migrações:
@@ -58,18 +60,18 @@ O projeto segue a arquitetura MVC (Model-View-Controller):
 Lista até 10 operadoras. Sem parâmetros, retorna as 10 primeiras operadoras do banco de dados.
 
 ### GET /api/operadoras/?search=texto
-Busca até 10 operadoras que contenham o texto informado em qualquer um dos campos indexados (registro_ans, razao_social, nome_fantasia, cidade, cnpj, representante).
+Busca até operadoras que contenham o texto informado em qualquer um dos campos (registro_ans, razao_social, nome_fantasia, cidade, cnpj, representante, UF,modalidade, cep e regiao de comercialização).
 
 ### GET /api/operadoras/{registro_ans}/
 Retorna os detalhes de uma operadora específica pelo seu Registro ANS.
 
 ## Postman
 
-Foi criada uma coleção do Postman para facilitar os testes da API. Para utilizá-la:
+Foi criada uma coleção do Postman para demosnstrar o resultado obtido com a construção. Para utilizá-la:
 
 1. Abra o Postman
-2. Clique em "Import" -> "File" -> Selecione o arquivo `Operadora_de_saude.postman_collection.json`
-3. A coleção "Operadoras API" será importada com os seguintes endpoints:
+2. Clique em "File" -> "Import" -> Selecione o arquivo `Operadora_de_saude.postman_collection.json` presente na raiz dessa pasta
+3. A coleção "Operadoras_de_saude" será importada com os seguintes endpoints:
 
 - **Listar todas operadoras**: GET http://127.0.0.1:8000/api/operadoras/
 - **Buscar operadoras por texto**: GET http://127.0.0.1:8000/api/operadoras/?search=SÃO%20PAULO
