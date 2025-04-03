@@ -10,10 +10,10 @@ __pycache__/
 db.sqlite3
 
 
-# Compiled JavaScript
+# JavaScript
 *.min.js
 
-# Compiled CSS
+# CSS
 *.min.css
 
 
